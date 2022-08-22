@@ -14,7 +14,7 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Application Files\ImportXml_1_0_0_4\ImportXml.exe.manifest" size="11582">
+    <dependentAssembly dependencyType="install" codebase="Application Files\ImportXml_1_0_0_5\ImportXml.exe.manifest" size="11582">
       <assemblyIdentity name="ImportXml.exe" version="1.0.0.4" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>

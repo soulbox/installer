@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ZKTimeDbExtend.exe" version="1.0.0.6" publicKeyToken="60f6f2542cc85d2a" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="on-time.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ZKTimeDbExtend" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ZKTimeDbExtend.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3" />
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Dapper.dll" size="196096">
+      <assemblyIdentity name="Dapper" version="2.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>kCfNZ4rI/3TyMhUWUomS0Yg4h+10no9uytcnbdVc7zE=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ZKTimeDbExtend.exe" size="82888">
+      <assemblyIdentity name="ZKTimeDbExtend" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>pYfjzDTH6q2csoRtNraVlRRI8DzuH62/xAy9rrS+dcs=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="on-time.ico" size="4286">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>+XwLiefj78s/knjHaYpKSvj37JJ9V6kmBTddF6Bd1kI=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="ZKTimeDbExtend.exe.config" size="984">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>kcvRiFrcSsKx4EtLeToYlIIVn4OWc/F6PqQGylcbTnQ=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on
+           and is designed to work with. Uncomment the appropriate elements
+           and Windows will automatically select the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=Kadir\kadir aygün" issuerKeyHash="f1a703f2ec75ae64ddfe41afc2a0a4e30e10e97c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>ttri5Gtz+ds3dGrHJryXycqqEq29/YJTvPk8lWJh8Uo=</DigestValue></Reference></SignedInfo><SignatureValue>Z/k/UsDKOgo7v0DJMjyQCt/758h5oCm8c1/0Z9WPyK2p9uvXHvFAgB1Mm6NN/NZBK3WTeXfySupDfNWQoqohLB/TFL0PVIvgzKkQ394NflCP3oKKVgi0SiAlMNw8/ty8r13Rxf1PNPJfIFIsYMjcbqWYdKZjj50lzYEp6/qIWdA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>qhcDGYR2ye04TWkG7058A/RIB9CcKfLHHvqYj7CF7GftQcFDRXXqu3RzOuqkXX+hCPBivU+Hj9tEqSUEpOG4cZImPqSr+TWDMKvC3mmfYASK+xzjXY2Vjt7yh8iNPGidaunneqH3M9u5f/QGZShewOLMMf6TyBF8nTyHHahNFiU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4af16162953cf9bc5382fdbdad12aacac997bc26c76a7437dbf9736be4e2dab6" Description="" Url=""><as:assemblyIdentity name="ZKTimeDbExtend.exe" version="1.0.0.6" publicKeyToken="60f6f2542cc85d2a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Kadir\kadir aygün</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>Lu9PI6qqk1LgbTIXe88MkqwK+MkNtzHZZ3D+cAZoTCg=</DigestValue></Reference></SignedInfo><SignatureValue>LJrQcJj8kaa9bQOQa0D/nI1VaH7Q4gheyA3NAFxCkIvGwXDego78TVKyFl6vrncmHTjwFHATRsBHffRFYJxHVVz04YH3JQBtP5WBaBPmHkT8Zkr+4QgvN2cg0x6Po5/ygj/g/mELPFYc962MFpcdoFLVbGFaQEUb/EvdGw6talA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>qhcDGYR2ye04TWkG7058A/RIB9CcKfLHHvqYj7CF7GftQcFDRXXqu3RzOuqkXX+hCPBivU+Hj9tEqSUEpOG4cZImPqSr+TWDMKvC3mmfYASK+xzjXY2Vjt7yh8iNPGidaunneqH3M9u5f/QGZShewOLMMf6TyBF8nTyHHahNFiU=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQTgLdlVWSzb5PXNG3LJxbnjANBgkqhkiG9w0BAQsFADAtMSswKQYDVQQDHiIASwBhAGQAaQByAFwAawBhAGQAaQByACAAYQB5AGcA/ABuMB4XDTIzMDMyNzA5MTEyM1oXDTI0MDMyNjE1MTEyM1owLTErMCkGA1UEAx4iAEsAYQBkAGkAcgBcAGsAYQBkAGkAcgAgAGEAeQBnAPwAbjCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAqhcDGYR2ye04TWkG7058A/RIB9CcKfLHHvqYj7CF7GftQcFDRXXqu3RzOuqkXX+hCPBivU+Hj9tEqSUEpOG4cZImPqSr+TWDMKvC3mmfYASK+xzjXY2Vjt7yh8iNPGidaunneqH3M9u5f/QGZShewOLMMf6TyBF8nTyHHahNFiUCAwEAATANBgkqhkiG9w0BAQsFAAOBgQAKrnJ3qYgm40S99NJ2LYdqiHcOnEGu6m9itxyWGSo0IfOj17SF2tTvTAClRxifDr8VWa5TFGDLyfC7g6tHxAV0ciEtW6QGgV2lc3FdHsOny+WCzfwrbPD0rVQ3PjC4pF8cmwI+7BTehKoHth921Wx5Fn5HauBEMDr/wrEHZfdkxg==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ConsoleTest.exe" version="1.0.0.21" publicKeyToken="da8622c517b31535" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="mark.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Launcher.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Launcher.exe" size="17376">
+      <assemblyIdentity name="Launcher" version="8.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>1GkRxo42iCXZ6qiKZdctXLSkVLNCtlf5tgkMtYj/P+c=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ConsoleTest.exe" size="4455888">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>gADht5WhXK6h0NNgPa93k9F41sR6aKIg/p4LPu9LuFw=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Core.pdb" size="40724">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>OXUtQO2Sg1HB6detxjUwSX3sn7r+cCAiefVqnjv1MnA=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="mark.ico" size="19516">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>UTeStexe+8+blTLS9juRs9z/6/m/K/sEG9zyxSB2cuQ=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=SOULBOX28\kadir aygün" issuerKeyHash="0da075d047f4373e77caf18bc36b8d0ec5d42623" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>NnuMhAh+3D++asx/XOFwT/f7O543E8ERBg10Pul5Hzw=</DigestValue></Reference></SignedInfo><SignatureValue>nNlyR/yvn8INJ/ObWQrTfn99QPbc1vIV4SJdJHlq+c88OlSbRtCofszzIY2PrXzjgATfHqRs/1njT08NZgNin9adqHESUQHVtH9L0xK/uOcp/yP3HFCJd6g72c7di9DLproJ37Rdh9CNm+gdGwpLVQlfsqw99On03TyhJ3OWjEI=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>3tkpaXOghxssiDfxbHll5pS3hJni0CtBYgi8P3zbaNYi7oVzjThRBRqSX7FCNTOCtJhxOFYzC8hk6pxLT3+NeagVI9NU3pd3hLd0tmumDdQFJUCIXin1/poSZymXfg1e7GyezMHc/aVD5ZNCu8cNkTmItRflfGHLpErLbXfc9uk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="3c1f79e93e740d0611c113379e3bfbf74f70e15c7fcc6abe3fdc7e08848c7b36" Description="" Url=""><as:assemblyIdentity name="ConsoleTest.exe" version="1.0.0.21" publicKeyToken="da8622c517b31535" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=SOULBOX28\kadir aygün</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>hkR+gb2nA18Cn+OUD6TtZ9w4GJlVbBYypKetrvRvw5U=</DigestValue></Reference></SignedInfo><SignatureValue>Uvp+VO15TvqgtGPDhRL6dG7JGPcPdqWT8oX/UzyOiD4MXBJRs0n6srinSBvQj3Dk0MZRpwAwz4yg4+KFCOgFP+wFBP11VqqPFdlDDHNaLmg2UELXllaH1njGhT07HP27/JV99a5M9T7hf1DJ8rJaGgW31MHhGGEhvyYonAZTTqk=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>3tkpaXOghxssiDfxbHll5pS3hJni0CtBYgi8P3zbaNYi7oVzjThRBRqSX7FCNTOCtJhxOFYzC8hk6pxLT3+NeagVI9NU3pd3hLd0tmumDdQFJUCIXin1/poSZymXfg1e7GyezMHc/aVD5ZNCu8cNkTmItRflfGHLpErLbXfc9uk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQWf/v/GzxjblFG+bc5/ZpAjANBgkqhkiG9w0BAQsFADA1MTMwMQYDVQQDHioAUwBPAFUATABCAE8AWAAyADgAXABrAGEAZABpAHIAIABhAHkAZwD8AG4wHhcNMjUwMjI2MjEwNzM1WhcNMjYwMjI3MDMwNzM1WjA1MTMwMQYDVQQDHioAUwBPAFUATABCAE8AWAAyADgAXABrAGEAZABpAHIAIABhAHkAZwD8AG4wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAN7ZKWlzoIcbLIg38Wx5ZeaUt4SZ4tArQWIIvD9822jWIu6Fc404UQUakl+xQjUzgrSYcThWMwvIZOqcS09/jXmoFSPTVN6Xd4S3dLZrpg3UBSVAiF4p9f6aEmcpl34NXuxsnszB3P2lQ+WTQrvHDZE5iLUX5Xxhy6RKy2133PbpAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAN3qWCs3pj+q8CTs45uWxjcMRxMUfS09DX4zqCZTVQvcGe6aB7w3qLhMie5zL7PgjaRkFjSJde3wnjxcwJhdtLFB30TvsEYAYVucHx5tMf8fnCL2kVVB07fZ2gE76RtCk861MAgkfFzCOuBcJfpnQWWFbb3sXVN/ax/cYE8IAn+U=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
